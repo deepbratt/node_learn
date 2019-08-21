@@ -1,0 +1,11 @@
+www.npmjs.com
+$ npm install express
+$ npm uninstall express (remove track in package.json manually)
+npm init (creates json packages track file)
+$ npm install express -save (to update to track file package.json)
+
+$ npm install (install all packages listed in package.json)
+
+$npm install nodemon -g (g stands for globally) (This package helps not to restart the server, directly reloading page will reflect the changes that were made)
+ -> node app
+	-> nodemon app.js
