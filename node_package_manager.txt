@@ -9,3 +9,9 @@ $ npm install (install all packages listed in package.json)
 $npm install nodemon -g (g stands for globally) (This package helps not to restart the server, directly reloading page will reflect the changes that were made)
  -> node app
 	-> nodemon app.js
+
+
+middleware is used to link css and js and images (to avoide writing all the routes to req for css and others)
+express.static()  => is used as a serving static files like css, js ,images etc.(express lib function it is)
+
+to handle post data - middleware => (body parser)
